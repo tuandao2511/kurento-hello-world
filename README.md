@@ -6,5 +6,8 @@ application show connect to itself
 
 
 #run
-npm install
+
+npm install 
+
+
 node server
