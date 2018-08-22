@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Kurento-Hello-World</title>
+        
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/kurento-utils/js/kurento-utils.js"></script>
+        <link rel="icon" href="data:;base64,=">
+        <script src="/socket.io/socket.io.js">  </script>
+         <style>
+            video {
+             border:1px solid black;
+             width:30%;
+            }
+        </style>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+         <div>
+                <video id="videoInput" autoplay width="480px" height="360px"></video>
+                <video id="videoOutput" autoplay width="480px" height="360px"></video>
+        </div>
+        <div>
+            <button id='start' onclick="start()">Start</button>
+            <button id='stop' onclick="stop()">Stop</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "kurento-demo-hello-world",
+  "version": "1.0.0",
+  "description": "loopback kurento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "td",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "kurento-client": "^6.6.0",
+    "minimist": "^1.2.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.1.1",
+    "static-favicon": "^2.0.0-alpha",
+    "ws": "^6.0.0"
+  }
+}
